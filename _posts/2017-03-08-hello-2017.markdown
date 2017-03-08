@@ -1,0 +1,29 @@
+---
+layout:     post
+title:      "Hello 2017"
+subtitle:   " \"一直在路上\""
+date:       2017-03-08 10:00:00
+author:     "TechJene"
+header-img: "img/post-bg-2015.jpg"
+catalog: true
+tags:
+    - 生活
+---
+
+> “Try my best. ”
+
+
+# 前言
+
+Jene 的 Blog 尝试。
+
+# 正文
+折腾了至少2天，没有做Web，HTML语言也不熟悉，所以只是在github找jekyll Theme，换了好几次模板，都不太满意。
+仓库 username.github.io ，我不停的new，然后再delete。
+我在本地仓库修改，然后git push，git也不熟悉，倒是重复了几十遍git提交的代码。哈哈！
+## 后记
+博客的主题来自黄玄huxpro.github.io，感谢玄哥！
+
+如果你恰好逛到了这里，希望你也能喜欢这个博客主题。
+
+—— Jene 后记于 2017-03
