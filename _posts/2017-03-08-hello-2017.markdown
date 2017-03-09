@@ -4,7 +4,7 @@ title:      "Hello 2017"
 subtitle:   " \"一直在路上\""
 date:       2017-03-08 10:00:00
 author:     "TechJene"
-header-img: "img/post-bg-2015.jpg"
+header-img: "img/post-bg-2017.jpg"
 catalog: true
 tags:
     - 生活
