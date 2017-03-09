@@ -27,14 +27,14 @@ tags:
 ## 正文
 
 搭建博客的流程如下：
-* 在 github 新建 usernam.github.io 的仓库
+* 在 github 新建 username.github.io 的仓库
 * 使用自定义域名
 * fork 并修改一个jekyll的 theme 模板
 * 开始写自己的 blog 即可
 * 搭建 jekyll 环境 ( Windows 平台，搭建了环境，不过目前没有用到)
 
 具体的技术细节，我不再赘述，大家可以自行搜索。  
-接下来，应该会写一篇博客，说说自己遇到地问题以及解决方案，欢迎关注。  
+接下来，应该会写一篇博客，说说自己遇到问题以及解决方案，欢迎关注。  
 
 折腾了至少3天，没有做过 Web，各种网页语言也不熟悉，所以只是在 github 找 jekyll Theme，换了好几次模板，都不太满意。  
 repository 和 username.github.io ，我不停的new，然后再delete。我都很佩服自己的耐心。。。：)  
