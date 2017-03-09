@@ -4,6 +4,7 @@ title:      "AlertDialog的第一次主动使用"
 #subtitle:   "Slides: Progressive Web App, in my points of view"
 date:       2017-03-08
 author:     "TechJene"
+header-img: "img/post-bg-alert.jpg"
 tags:
     - Android
     - Eclipse
