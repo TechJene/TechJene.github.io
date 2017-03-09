@@ -43,11 +43,11 @@ repository 和 username.github.io ，我不停的new，然后再delete。我都�
 > git commit -m "changes"  
 > git push -u origin master
 
-git也不太熟悉，倒是重复了几十遍git提交的代码。哈哈！  
+git 也不太熟悉，倒是重复了几十遍 git 提交的代码。哈哈！  
 
 ## 后记
 
-2016年年底，Jene从硬件过渡到了Android，接触了好多互联网的东西。  
+2016年年底，Jene 从硬件过渡到了Android，接触了好多互联网的东西。  
 2017年的今天，Jene 的个人博客搭建好了。
 
 前两天在李开复老师的《世界因你而不同》读到一句话：
@@ -57,6 +57,6 @@ git也不太熟悉，倒是重复了几十遍git提交的代码。哈哈！
 或许有一天，思想会指引你我相遇。   
 愿你喜欢 Jene 的博客，谢谢。
 
-最后，博客的主题来自[huxpro.github.io](https://github.com/Huxpro/huxpro.github.io)，感谢作者！
+最后，博客的主题来自 [huxpro.github.io](https://github.com/Huxpro/huxpro.github.io)，感谢作者！
 
 —— Jene 2017-03 晚
