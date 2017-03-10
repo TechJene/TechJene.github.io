@@ -17,7 +17,7 @@ tags:
 
 2017年的3月，借助 githubpages，我搭建了个人的 Blog。
 
-![](/img/in-post/post-my-blog-cover.png)
+![](/img/2017/post-my-blog-cover.png)
 
 我借用了东坡先生的《定风波 · 三月七日》的一句：
 > 一蓑烟雨任平生。
@@ -59,4 +59,4 @@ git 也不太熟悉，倒是重复了几十遍 git 提交的代码。哈哈！
 
 最后，博客的主题来自 [huxpro.github.io](https://github.com/Huxpro/huxpro.github.io)，感谢作者！
 
-—— Jene 2017-03 晚
+—— Jene 2017-03
