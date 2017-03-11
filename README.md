@@ -11,3 +11,7 @@
 ## 说明
 
 1. modify folder class 是更改的 image 文件夹的结构，本应该是 folder structure。
+
+2. 强调的 markdown 语法，**xxx**，不可添加空格。
+
+3. 有序列表的 markdown 语法，如果插入图片，不可换行，且需要增加一个tab。
