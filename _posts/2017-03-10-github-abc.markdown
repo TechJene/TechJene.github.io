@@ -48,7 +48,7 @@ GitHub 是一个版本控制与协作的代码托管平台。通过使用 GitHub
 你新建的 hello world 仓库可以作为你存放想法、资源的地方，你甚至可以和他人分享和讨论事情。  
 
 #### 新建仓库  
-1. 在右上角，你的头像( avatar ) 或者是ID的旁边，点击 ** + ** ，然后选择新建仓库( New repository )。
+1. 在右上角，你的头像( avatar ) 或者是ID的旁边，点击 **+** ，然后选择新建仓库( New repository )。
 
  ![](/img/2017/post-github-abc/github-new01.jpg)
 
@@ -84,7 +84,7 @@ GitHub 是一个版本控制与协作的代码托管平台。通过使用 GitHub
 下面是创建分支的步骤：
 1. 打开刚刚新建的仓库。
 
-2. 点击 ** Branch：master ** 的下拉按钮( drop down )。
+2. 点击 **Branch：master** 的下拉按钮( drop down )。
 
 3. 在文本框中写入分支的名字，比如 readme-edits 。
 
@@ -111,13 +111,14 @@ GitHub 是一个版本控制与协作的代码托管平台。通过使用 GitHub
 
 4. 为你的更改写一条提交信息。
 
-5. 点击 ** Commit changes ** 按钮
+5. 点击 **Commit changes** 按钮
 
  ![](/img/2017/post-github-abc/github-commit02.jpg)
 
  只是更改了分支 readme-edits 的 README 文件，所以现在这个分支包含了不同于主分支的内容。
 
-** 第 6 行出现语法错误。已改为 want to ，希望不会误导大家。 **
+**第 6 行出现语法错误。已改为 want to ，希望不会误导大家。**
+
 ### 第四步：开启一次获取请求( pull request )  
 
 既然已经在分离于 master 的分支上有了更改，现在可以开启一次获取请求。
@@ -132,9 +133,9 @@ GitHub 是一个版本控制与协作的代码托管平台。通过使用 GitHub
 
 下面练习一下。
 
-** 为 README 的更改开启 pull request **
+**为 README 的更改开启 pull request**
 
-1. 点击 ** Pull Request ** 标签，然后点击 ** New pull request ** 按钮。
+1. 点击 **Pull Request** 标签，然后点击 **New pull request** 按钮。
 
  ![](/img/2017/post-github-abc/github-pull01.jpg)
 
@@ -151,7 +152,7 @@ GitHub 是一个版本控制与协作的代码托管平台。通过使用 GitHub
 
  ![](https://guides.github.com/activities/hello-world/diff.png)
 
-4. 确认 submit 无误之后，点击上方的 ** Create Pull Request ** 按钮
+4. 确认 submit 无误之后，点击上方的 **Create Pull Request** 按钮
 
  ![](/img/2017/post-github-abc/github-pull04.jpg)
 
@@ -159,7 +160,7 @@ GitHub 是一个版本控制与协作的代码托管平台。通过使用 GitHub
 
  ![](/img/2017/post-github-abc/github-pull05.jpg)
 
-一切 OK 之后，点击下方的 ** Create pull request ** 。
+一切 OK 之后，点击下方的 **Create pull request** 。
 
 另外，原网址提示，在评论和 Pull Request 上可以使用 [ emoji ](https://help.github.com/articles/basic-writing-and-formatting-syntax/#using-emoji) 和[动态图等](https://help.github.com/articles/file-attachments-on-issues-and-pull-requests/)。
 
@@ -169,11 +170,11 @@ GitHub 是一个版本控制与协作的代码托管平台。通过使用 GitHub
 
 步骤：
 
-1. 点击 ** Merge pull request ** 按钮来合并更改到 master 分支。
+1. 点击 **Merge pull request** 按钮来合并更改到 master 分支。
 
   ![](/img/2017/post-github-abc/github-pull06.jpg)
 
-2. 点击 ** Confirm merge ** 按钮。
+2. 点击 **Confirm merge** 按钮。
 
   ![](/img/2017/post-github-abc/github-pull07.jpg)
 
@@ -193,7 +194,7 @@ GitHub 是一个版本控制与协作的代码托管平台。通过使用 GitHub
 * 更改了一个文件并且把改变提交到了 GitHub
 * 开启并且合并了一次 Pull Request
 
-点击你头像旁边的下拉按钮，然后点击 ** Your profile **
+点击你头像旁边的下拉按钮，然后点击 **Your profile**
 
    ![](/img/2017/post-github-abc/github-profile.jpg)
 
@@ -203,7 +204,7 @@ GitHub 是一个版本控制与协作的代码托管平台。通过使用 GitHub
 
 目前为止，只要咱们一步一步认真的做，那么就算是入门了。
 
-想学习更多关于 __ Pull Requests __ 的知识，GitHub 建议阅读[ GitHub Flow Guide ](https://guides.github.com/introduction/flow/)。我应该会做一篇关于 GitHub Flow Guide 的翻译，欢迎随时关注。
+想学习更多关于 **Pull Requests** 的知识，GitHub 建议阅读[ GitHub Flow Guide ](https://guides.github.com/introduction/flow/)。我应该会做一篇关于 GitHub Flow Guide 的翻译，欢迎随时关注。
 
 另外，GitHub 提供了一个[ GitHub Explore ](https://github.com/explore)，感兴趣的可以去逛一逛。
 
