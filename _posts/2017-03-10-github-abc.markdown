@@ -161,7 +161,7 @@ GitHub 是一个版本控制与协作的代码托管平台。通过使用 GitHub
 
 一切 OK 之后，点击下方的 ** Create pull request ** 。
 
-另外，原网址提示，在评论和 Pull Request 上可以使用 [ emoji ](https://help.github.com/articles/basic-writing-and-formatting-syntax/#using-emoji) 和[]动态图等](https://help.github.com/articles/file-attachments-on-issues-and-pull-requests/)。
+另外，原网址提示，在评论和 Pull Request 上可以使用 [ emoji ](https://help.github.com/articles/basic-writing-and-formatting-syntax/#using-emoji) 和[动态图等](https://help.github.com/articles/file-attachments-on-issues-and-pull-requests/)。
 
 ### 第五步：合并你的 Pull Request  
 
@@ -203,7 +203,7 @@ GitHub 是一个版本控制与协作的代码托管平台。通过使用 GitHub
 
 目前为止，只要咱们一步一步认真的做，那么就算是入门了。
 
-想学习更多关于 ** Pull Requests ** 的知识，GitHub 建议阅读[ GitHub Flow Guide ](https://guides.github.com/introduction/flow/)。我应该会做一篇关于 GitHub Flow Guide 的翻译，欢迎随时关注。
+想学习更多关于 __ Pull Requests __ 的知识，GitHub 建议阅读[ GitHub Flow Guide ](https://guides.github.com/introduction/flow/)。我应该会做一篇关于 GitHub Flow Guide 的翻译，欢迎随时关注。
 
 另外，GitHub 提供了一个[ GitHub Explore ](https://github.com/explore)，感兴趣的可以去逛一逛。
 
