@@ -7,3 +7,7 @@
 2. 感谢 Jekyll、Github Pages 和 Bootstrap!
 
 3. 解决post文章双滚动条的方案来自[androiddevelop/CodeboyBlog](https://github.com/androiddevelop/CodeboyBlog/commit/a2233f944d310c343ea44064b7787daa8cc1c37e)，感谢。
+
+## 说明
+
+1. modify folder class 是更改的 image 文件夹的结构，本应该是 folder structure。
