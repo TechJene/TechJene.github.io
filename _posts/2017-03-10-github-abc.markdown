@@ -139,7 +139,6 @@ GitHub 是一个版本控制与协作的代码托管平台。通过使用 GitHub
 
 3. 仔细检查一下更改之后的不同，确保这是你想提交( submit )的。  
   ![](/img/2017/post-github-abc/github-pull03.jpg)
-
   可以看到显示的是6个添加项，并以绿色标识。  
   下面的图片来自 GitHub 官网，可以看出，删除项以红色标识。
   ![](https://guides.github.com/activities/hello-world/diff.png)
