@@ -48,9 +48,8 @@ GitHub 是一个版本控制与协作的代码托管平台。通过使用 GitHub
 你新建的 hello world 仓库可以作为你存放想法、资源的地方，你甚至可以和他人分享和讨论事情。  
 
 #### 新建仓库  
-1. 在右上角，你的头像( avatar ) 或者是ID的旁边，点击 **+** ，然后选择新建仓库( New repository )。
-
- ![](/img/2017/post-github-abc/github-new01.jpg)
+1. 在右上角，你的头像( avatar ) 或者是ID的旁边，点击 **+** ，然后选择新建仓库( New repository )。  
+  ![](/img/2017/post-github-abc/github-new01.jpg)
 
 2. 命名仓库为 hello-world ，或者任何你喜欢的名字，我命名为 Jene-hello-world 。
 
@@ -58,7 +57,7 @@ GitHub 是一个版本控制与协作的代码托管平台。通过使用 GitHub
 
 4. 选择初始化( Initialize )仓库的同时带有 REANME 。
 
- ![](/img/2017/post-github-abc/github-new02.jpg)
+  ![](/img/2017/post-github-abc/github-new02.jpg)
 
 最后，点击创建仓库即可。
 
@@ -105,7 +104,7 @@ GitHub 是一个版本控制与协作的代码托管平台。通过使用 GitHub
 
 2. 点击右上角的编辑按钮(形状是笔的那个)。
 
- ![](/img/2017/post-github-abc/github-commit01.jpg)
+  ![](/img/2017/post-github-abc/github-commit01.jpg)
 
 3. 编辑状态下，可以写一下关于你自己的内容。
 
@@ -113,7 +112,7 @@ GitHub 是一个版本控制与协作的代码托管平台。通过使用 GitHub
 
 5. 点击 **Commit changes** 按钮
 
- ![](/img/2017/post-github-abc/github-commit02.jpg)
+  ![](/img/2017/post-github-abc/github-commit02.jpg)
 
  只是更改了分支 readme-edits 的 README 文件，所以现在这个分支包含了不同于主分支的内容。
 
@@ -135,30 +134,30 @@ GitHub 是一个版本控制与协作的代码托管平台。通过使用 GitHub
 
 **为 README 的更改开启 pull request**
 
-1. 点击 **Pull Request** 标签，然后点击 **New pull request** 按钮。
+1. 点击 **Pull Request** 标签，然后点击 **New pull request** 按钮。  
 
- ![](/img/2017/post-github-abc/github-pull01.jpg)
+  ![](/img/2017/post-github-abc/github-pull01.jpg)
 
-2. 点击分支 readme-edits ，
+2. 点击分支 readme-edits  
 
- ![](/img/2017/post-github-abc/github-pull02.jpg)
+  ![](/img/2017/post-github-abc/github-pull02.jpg)
 
-3. 仔细检查一下更改之后的不同，确保这是你想提交( submit )的。
+3. 仔细检查一下更改之后的不同，确保这是你想提交( submit )的。  
 
- ![](/img/2017/post-github-abc/github-pull03.jpg)
+  ![](/img/2017/post-github-abc/github-pull03.jpg)
 
- 可以看到显示的是6个添加项，并以绿色标识。  
- 下面的图片来自 GitHub 官网，可以看出，删除项以红色标识。
+  可以看到显示的是6个添加项，并以绿色标识。  
+  下面的图片来自 GitHub 官网，可以看出，删除项以红色标识。
 
- ![](https://guides.github.com/activities/hello-world/diff.png)
+  ![](https://guides.github.com/activities/hello-world/diff.png)
 
-4. 确认 submit 无误之后，点击上方的 **Create Pull Request** 按钮
+4. 确认 submit 无误之后，点击上方的 **Create Pull Request** 按钮。  
 
- ![](/img/2017/post-github-abc/github-pull04.jpg)
+  ![](/img/2017/post-github-abc/github-pull04.jpg)
 
-5. 给你的 pull request 写个标题，然后对你的更改做一个简明的描述。
+5. 给你的 pull request 写个标题，然后对你的更改做一个简明的描述。  
 
- ![](/img/2017/post-github-abc/github-pull05.jpg)
+  ![](/img/2017/post-github-abc/github-pull05.jpg)
 
 一切 OK 之后，点击下方的 **Create pull request** 。
 
@@ -170,17 +169,17 @@ GitHub 是一个版本控制与协作的代码托管平台。通过使用 GitHub
 
 步骤：
 
-1. 点击 **Merge pull request** 按钮来合并更改到 master 分支。
+1. 点击 **Merge pull request** 按钮来合并更改到 master 分支。  
 
   ![](/img/2017/post-github-abc/github-pull06.jpg)
 
-2. 点击 **Confirm merge** 按钮。
+2. 点击 **Confirm merge** 按钮。  
 
   ![](/img/2017/post-github-abc/github-pull07.jpg)
 
-3. 因为更改已经被包含进了 master 分支，可以删除 readme-edits 分支了。 可以看到紫色方形后面的指示：You’re all set—the readme-edits branch can be safely deleted.
+3. 因为更改已经被包含进了 master 分支，可以删除 readme-edits 分支了。 可以看到紫色方形后面的指示：You’re all set—the readme-edits branch can be safely deleted.  
 
-   ![](/img/2017/post-github-abc/github-del.jpg)
+    ![](/img/2017/post-github-abc/github-del.jpg)
 
 
 ### 结束语  
@@ -196,7 +195,7 @@ GitHub 是一个版本控制与协作的代码托管平台。通过使用 GitHub
 
 点击你头像旁边的下拉按钮，然后点击 **Your profile**
 
-   ![](/img/2017/post-github-abc/github-profile.jpg)
+  ![](/img/2017/post-github-abc/github-profile.jpg)
 
 然后看一下你的提交历史(就是下图中的小方块)：
 
