@@ -2,7 +2,7 @@
 layout:     post
 title:      "Windows 本地 jekyll 环境配置"
 subtitle:   " \"搭建 githubpages 本地预览环境\""
-date:       2017-03-12 14:30:00
+date:       2017-03-12 16:00:00
 author:     "TechJene"
 header-img: "img/2017/post-jekyll-config.jpg"
 catalog: true
@@ -13,7 +13,8 @@ tags:
 > "但愿君心似我心。"
 
 **说明**  
-基于 Windows 8.1 系统。
+* 基于 Windows 8.1 系统。
+* 前提是已经基于 githubpages 搭建好了网站
 
 ### 前言
 
@@ -68,11 +69,8 @@ tags:
 
 2. 输入 jekyll --help 查看最新的 Serve your site locally 命令  
   目前(2017.03.11)是：
-  >  serve, server, s
-
-  所以输入  
-  ``jekyll s``  
-  即可启动本地预览。
+  ``serve, server, s``  
+  所以输入 ``jekyll s``即可启动本地预览。
 
 3. 打开浏览器，输入 http://localhost:4000/ ，然后 enjoy 。
 
