@@ -14,4 +14,8 @@
 
 2. 强调的 markdown 语法，**xxx**，不可添加空格。
 
-3. 有序列表的 markdown 语法，如果插入图片，不可换行，且需要增加一个tab。
+3. 有序列表的 markdown 语法，如果插入图片，标题与图片之间无需增加一个换行，且需要增加一个tab。
+
+4. 关于分支 branch
+本地的 branch 最好是分离于 master 的另一个分支，可以编辑，防止发生不可抗性破坏。
+等 push 到github，再 merge 到 master 即可。
