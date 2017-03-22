@@ -2,7 +2,7 @@
 layout:     post
 title:      "理解 Github Flow"
 subtitle:   " \"hello github\""
-date:       2017-03-21 10:18:00
+date:       2017-03-22 09:18:00
 author:     "TechJene"
 header-img: "img/2017/post-github-abc/github-abc.jpg"
 catalog: true
