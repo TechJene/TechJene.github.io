@@ -45,7 +45,7 @@ tags:
   还有一个用于触发登陆的 Button。  
   下面是 login_layout.xml
 
-```
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
@@ -133,7 +133,7 @@ tags:
 然后，使用 setHint 方法设置一个 hint。  
 下面是代码：
 
-```
+```java
    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

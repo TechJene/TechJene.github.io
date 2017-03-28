@@ -36,7 +36,7 @@ tags:
 所以必须要声明 android.permission.SYSTEM_ALERT_WINDOW 权限。  
 修改，增加权限代码：
 
-```
+```xml
  <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
 ```
 因为还是对 AlertDialog 的用法不熟悉，以为到此就可以了，  
@@ -46,7 +46,7 @@ tags:
 发现没有设置 AlertDialog 弹出，
 
 在 Main 活动中补上代码：
-```
+```java
 AlertDialog alertDialog = dialogBuilder.create();
 alertDialog.getWindow().setType(WindowManager.LayoutParams.TYPE_SYSTEM_ALERT);
 alertDialog.show();
@@ -66,7 +66,7 @@ alertDialog.show();
 
 下面附上 AlertDialog 的代码：
 
-```
+```java
 Button queryData = (Button) findViewById(R.id.query_data);
 		queryData.setOnClickListener(new OnClickListener() {
 

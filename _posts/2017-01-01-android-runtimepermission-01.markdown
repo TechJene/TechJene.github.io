@@ -28,14 +28,14 @@ tags:
 #### 一、修改 MainActivity
 1.新建一个 PermissionList
 
-```
+```java
 List<String> permissionList = new ArrayList<String>();
 ```
 
 2.对需要申请的权限进行 if 判断  
 按照郭老师讲解，以 CALL_PHONE 和 WRITE_EXTERNAL_STORAGE 为例
 
-```
+```java
 //2.对需要申请的权限进行if判断
 if (ContextCompat.checkSelfPermission(MainActivity.this,
         Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED){
@@ -51,7 +51,7 @@ if (ContextCompat.checkSelfPermission(MainActivity.this,
 ```
 3.对 permissionList 进行判断
 
-```
+```java
 //3.对PermissionList进行判断
 if (!permissionList.isEmpty()){
     /*进行权限申请，申请permissionList中的权限，permissionList为String，需要转换为String数组的参数格式。
@@ -65,14 +65,14 @@ if (!permissionList.isEmpty()){
 ```
 如果 permissionList 为空，则说明权限都通过了，执行自定义逻辑即可。
 
-```
+```java
 private void defineLogical() {
     Toast.makeText(MainActivity.this, "所有权限申请通过", Toast.LENGTH_SHORT).show();
 }
 ```
 4.在 onRequestPermissionResult() 方法中处理用户回调
 
-```
+```java
 @Override
 public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
     switch (requestCode){
@@ -101,7 +101,7 @@ public void onRequestPermissionsResult(int requestCode, @NonNull String[] permis
 
 #### 二、在 AndroidManifest 中注册申请的权限
 
-```
+```xml
 <uses-permission android:name="android.permission.CALL_PHONE"/>
 <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
 

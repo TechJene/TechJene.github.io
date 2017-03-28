@@ -70,14 +70,14 @@ tags:
 ![这里写图片描述](http://img.blog.csdn.net/20170102090522609?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvWWFveXVhbmRlbWVpbGk=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)  
 RxPermissionsFragment 方法中提供了一个 resultPermissions 方法，调用父类 Fragment 的 requestPermissions 方法，去请求权限。
 
-```
+```java
 void requestPermissions(@NonNull String[] permissions) {
 	requestPermissions(permissions, PERMISSIONS_REQUEST_CODE);
 }
 ```
 然后重写了 onRequestPermissionsResult 方法，去处理结果的回调，并进行下一次的回调处理。
 
-```
+```java
 public void onRequestPermissionsResult(int requestCode, @NonNull String permissions[], @NonNull int[] grantResults) {
 	super.onRequestPermissionsResult(requestCode, permissions, grantResults);
 
@@ -99,7 +99,7 @@ public void onRequestPermissionsResult(int requestCode, @NonNull String permissi
 
 在 RxPermissions 方法中，传一个 activity 进来，并调用了 getRxPermissionsFragment() 方法。
 
-```
+```java
 public RxPermissions(@NonNull Activity activity) {
 	mRxPermissionsFragment = getRxPermissionsFragment(activity);
 }
@@ -108,7 +108,7 @@ public RxPermissions(@NonNull Activity activity) {
 getRxPermissionsFragment() 方法中：
 new 出了 rxPermissionsFragment 并将其添加到 activity 这个类中。
 
-```
+```java
 private RxPermissionsFragment getRxPermissionsFragment(Activity activity) {
 	RxPermissionsFragment rxPermissionsFragment = findRxPermissionsFragment(activity);
 	boolean isNewInstance = rxPermissionsFragment == null;
@@ -145,7 +145,7 @@ private RxPermissionsFragment getRxPermissionsFragment(Activity activity) {
 1> new 一个permissionList  
 2>执行一个循环，将permissions数组中所有的值取出来。在其内部执行判断。
 
-```
+```java
 public static void requestRuntimePermission(String[] permissions) {
 	//requestCode可以封装在内部。
 
@@ -169,7 +169,7 @@ public static void requestRuntimePermission(String[] permissions) {
 
 2.重写onRequestPermissionsResult方法。用于回调用户授权行为。
 
-```
+```java
 @Override
 public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
 	switch (requestCode){
@@ -203,7 +203,7 @@ public void onRequestPermissionsResult(int requestCode, @NonNull String[] permis
 1.新建一个 PermissionListener 接口
 ![这里写图片描述](http://img.blog.csdn.net/20170102162743997?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvWWFveXVhbmRlbWVpbGk=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 
-```
+```java
 public interface PermissionListener {
 
     void onGranted();
@@ -221,21 +221,21 @@ public interface PermissionListener {
 
 因为需要 PermissionListener 通知权限申请结果，即注册一个申请权限的回调监听。
 
-```
+```java
 //还需要PermissionListener通知权限申请结果,即注册一个申请权限的回调监听。
 public static void requestRuntimePermission(String[] permissions, PermissionListener listener) {...}
 ```
 
 2.定义 PermissionListener 的全局变量。
 
-```
+```java
 //定义PermissionListener的全局变量。因为两个方法都需要。
 private static PermissionListener mPermissionListener;
 ```
 3.调用 PermissionListener 接口。
 1>在 requestRuntimePermission 方法中，授权了，就在 else 中 granted
 
-```
+```java
 //3.授权，调用onGranted
 mPermissionListener.onGranted();
 ```
@@ -243,13 +243,13 @@ mPermissionListener.onGranted();
 
 new 一个数组，用于存放被拒绝的权限。
 
-```
+```java
 List<String> deniedPermissions = new ArrayList<>();
 ```
 通过方法中的参数 permissions 回调权限授权情况。  
 因为需要数组的下标 i ，而 foreach 无法完成，故改为 fori 循环，并在循环内部进行判断。
 
-```
+```java
 for (int i = 0; i < grantResults.length; i++) {
 	int grantResult = grantResults[i];
 	String permission = permissions[i];
@@ -262,7 +262,7 @@ for (int i = 0; i < grantResults.length; i++) {
 ```
 循环执行完之后，再判断一下 deniedPermissions 是否为空。
 
-```
+```java
 //判断是否为空
 if (deniedPermissions.isEmpty()){
 	mPermissionListener.onGranted();
@@ -279,7 +279,7 @@ if (deniedPermissions.isEmpty()){
 在 MainActivity 的 onClick 方法中，调用 requestRuntimePermission。  
 传入需要申请的权限，并新建一个 PermissionListener 的回调接口。
 
-```
+```java
 @Override
 public void onClick(View view) {
 
@@ -310,7 +310,7 @@ public void onClick(View view) {
 2>提供addActivity和removeActivity方法。  
 3>提供一个获取当前栈顶activity的方法。
 
-```
+```java
 public class ActivityCollector {
 
     //封装一个list用于管理当前所有activity
@@ -337,7 +337,7 @@ public class ActivityCollector {
 **2.修改 BaseActivity**
 1>添加 OnCreate 方法用于 add 活动
 
-```
+```java
 @Override
 protected void onCreate(@Nullable Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
@@ -346,7 +346,7 @@ protected void onCreate(@Nullable Bundle savedInstanceState) {
 ```
 2>添加 OnDestroy 方法用于 remove 活动
 
-```
+```java
 @Override
 protected void onDestroy() {
     super.onDestroy();
@@ -355,7 +355,7 @@ protected void onDestroy() {
 ```
 3>在requestRuntimePermission方法中获取当前栈顶activity。
 
-```
+```java
 public static void requestRuntimePermission(String[] permissions, PermissionListener listener) {
 
 	Activity topStackActivity = ActivityCollector.getStackTopActivity();

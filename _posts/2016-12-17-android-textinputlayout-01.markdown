@@ -49,7 +49,7 @@ tags:
 将EditText包含于TextInputLayout内层。
 如下：
 
-```
+```xml
 <android.support.design.widget.TextInputLayout
         android:id="@+id/layout_edit_text"
         android:layout_width="match_parent"

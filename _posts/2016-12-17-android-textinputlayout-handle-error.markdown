@@ -39,7 +39,7 @@ mButton.setOnClickListener(new View.OnClickListener() {
 3.在 onClick 方法中调用 hideKeyboard。  
 因为使用 button 登陆，用户不再需要键盘，但是系统不会自动隐藏虚拟键盘。
 
-```
+```java
 /**
  * 隐藏虚拟键盘
  */

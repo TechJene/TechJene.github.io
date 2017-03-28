@@ -42,7 +42,7 @@ New Project，主 Activity 和 Layout 默认即可。
 或者手动添加 Project Structure-->app-->dependencies。  
 **compile 'com.android.support:percent:25.1.0'**
 
-```
+```gradle
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
@@ -59,7 +59,7 @@ dependencies {
 
 #### 第三步：修改布局代码
 
-```
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.percent.PercentFrameLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -103,7 +103,7 @@ dependencies {
 #### 第四步：修改主Activity
 1. 定义 Image 按钮
 
-```
+```java
 private ImageView mImgButton1;
 private ImageView mImgButton2;
 private ImageView mImgButton3;
@@ -111,7 +111,7 @@ private ImageView mImgButton4;
 ```
 2.通过 findViewById() 方法找到 ImageView 的实例
 
-```
+```java
 @Override
 protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
@@ -133,7 +133,7 @@ protected void onCreate(Bundle savedInstanceState) {
 ```
 3.调用 setImageResource() 方法获取新的图片
 
-```
+```java
 @Override
 public void onClick(View view) {
     switch (view.getId()){

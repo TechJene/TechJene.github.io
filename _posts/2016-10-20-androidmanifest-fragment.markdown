@@ -41,7 +41,7 @@ tags:
 我打开自己的 AndroidManifest.xml，确实没有声明该活动。
 
 所以补上下面的代码：
-```
+```xml
 <activity android:name=".NewsContentActivity" >
 </activity>
 ```
@@ -64,7 +64,7 @@ tags:
 以下是代码：
 layout 下的 activity_main.xml【单页模式】
 
-```
+```xml
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent" >
@@ -79,7 +79,7 @@ layout 下的 activity_main.xml【单页模式】
 ```
 layout-sw600dp下的 activity_main.xml 【双页模式】
 
-```
+```xml
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent" >
@@ -110,7 +110,7 @@ layout-sw600dp下的 activity_main.xml 【双页模式】
 
 另外的区别是 NewTitleFragment.java 的部分代码：
 
-```
+```java
 public void onItemClick(AdapterView<?> parent, View view, int position,
 		long id) {
 	News news = newsList.get(position);
