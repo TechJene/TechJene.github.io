@@ -32,3 +32,5 @@
 ```java
 code
 ```
+
+8. \_layouts\post.html 文件的 11-15 行添加数学公式支持脚本。  
